@@ -3,7 +3,7 @@
 一个允许在 Android 上访问 Apple 查找网络的开源软件项目。
 
 > **声明**  
-> Find My、查找、Find My Network 的权利人和所有人是 Apple Inc. 美国苹果公司。本项目与 Apple Inc. 无任何官方关联。
+> iCloud、Apple、Find My、查找、Find My Network 的权利人和所有人是 Apple Inc. 美国苹果公司。本项目与 Apple Inc. 无任何官方关联。
 
 ---
 
@@ -96,7 +96,7 @@ FindMyNet 是一个 Android 应用程序，允许用户通过 iCloud 账户追�
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/FindMyNet.git
+git clone https://github.com/PrelinaMontelli/FindMyNet.git
 cd FindMyNet
 ```
 
@@ -301,9 +301,23 @@ private val FILTERED_DEVICE_NAMES = setOf<String>(
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启一个 Pull Request
 
----
 
-## 开源协议
 
-本项目采用 MIT 协议开源。详见 [LICENSE](LICENSE) 文件。
+
+
+## 许可证
+
+本项目采用 CC BY-NC 4.0（Creative Commons Attribution-NonCommercial 4.0 International）许可证。
+
+**阁下可以：**
+- ✅ 分享 — 在任何媒介以任何形式复制、发行本作品
+- ✅ 演绎 — 修改、转换或以本作品为基础进行创作
+
+**惟须遵守下列条件：**
+- 📝 **署名** — 阁下必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改
+- 🚫 **非商业性使用** — 阁下不得将本作品用于商业目的
+
+**原作者：** Prelina Montelli
+
+详细许可条款请参见：https://creativecommons.org/licenses/by-nc/4.0/
 
