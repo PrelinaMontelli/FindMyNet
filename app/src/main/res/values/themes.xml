@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FindMyNet" parent="android:Theme.Material.Light.NoActionBar" />
+    
+    <!-- Material Components 主题用于 MapActivity 等传统 Activity -->
+    <style name="Theme.FindMyNet.AppCompat" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/primary_blue_dark</item>
+        <item name="colorAccent">@color/accent_blue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+        <!-- Material 2 颜色别名，映射到 Material 3 属性名 -->
+        <item name="colorOnSurface">?android:attr/textColorPrimary</item>
+        <item name="colorOnSurfaceVariant">?android:attr/textColorSecondary</item>
+        <item name="colorOutlineVariant">#E0E0E0</item>
+    </style>
+</resources>

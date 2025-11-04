@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    
+    <!-- 高德地图所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:label="@string/app_name"
+        android:roundIcon="@android:drawable/ic_menu_mylocation"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FindMyNet"
+        android:usesCleartextTraffic="false">
+        <activity
+            android:name=".MainActivityNew"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FindMyNet">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- WebView 登录活动 - 避免 503 错误 -->
+        <activity
+            android:name=".WebViewLoginActivity"
+            android:exported="false"
+            android:label="浏览器登录"
+            android:theme="@style/Theme.FindMyNet" />
+        
+        <!-- 地图页面 - 显示设备位置 -->
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:label="FindMyNet"
+            android:theme="@style/Theme.FindMyNet.AppCompat" />
+        
+        <!-- 高德地图 API Key - 请替换为你自己的Key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="YOUR_AMAP_API_KEY" />
+        
+        <!-- iCloud3 追踪服务 -->
+        <service
+            android:name=".icloud3.IC3Service"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>
