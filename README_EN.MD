@@ -1,6 +1,13 @@
-# FindMyNet
+# FindMyNet - DevelopBeta Branch
 
 **[中文](README.MD) | English**
+
+> **⚠️ Development Branch Notice**  
+> This is the **DevelopBeta** development branch, used for implementing and testing new features and experimental functionalities.  
+> The code in this branch may be unstable and may contain incomplete features or known bugs.  
+> Changes will only be merged into the [master branch](https://github.com/PrelinaMontelli/FindMyNet/tree/master) after thorough testing and confirmation of stability.  
+> 
+> **If you need a stable version, please visit the [master branch](https://github.com/PrelinaMontelli/FindMyNet/tree/master)**
 
 ---
 
@@ -292,6 +299,11 @@ The following features are not yet implemented, contributions are welcome:
 
 Issues and Pull Requests are welcome!
 
+### Branch Information
+
+- **master**: Stable release branch containing tested and verified features
+- **DevelopBeta**: Development branch for new feature development and experimental functionality testing
+
 ### Submit an Issue
 - Clearly describe the problem or feature request
 - Provide reproduction steps (if it's a bug)
@@ -299,10 +311,12 @@ Issues and Pull Requests are welcome!
 
 ### Submit a PR
 1. Fork this project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create your feature branch from `DevelopBeta` (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Open a Pull Request to the `DevelopBeta` branch
+
+> **Note**: Please submit new features and experimental improvements to the `DevelopBeta` branch. Only thoroughly tested stable features will be merged into the `master` branch.
 
 ---
 

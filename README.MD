@@ -1,6 +1,13 @@
-# FindMyNet
+# FindMyNet - DevelopBeta 开发分支
 
 **中文 | [English](README_EN.MD)**
+
+> **⚠️ 开发分支说明**  
+> 这是 **DevelopBeta** 开发分支，用于实现和测试新功能与实验性特性。  
+> 此分支的代码可能不稳定，可能包含未完成的功能或已知的 Bug。  
+> 仅当功能经过充分测试并确认稳定后，才会合并到 [master 分支](https://github.com/PrelinaMontelli/FindMyNet/tree/master)。  
+> 
+> **如果你需要稳定版本，请访问 [master 分支](https://github.com/PrelinaMontelli/FindMyNet/tree/master)**
 
 ---
 
@@ -293,6 +300,11 @@ private val FILTERED_DEVICE_NAMES = setOf<String>(
 
 欢迎提交 Issue 和 Pull Request！
 
+### 分支说明
+
+- **master**: 稳定版本分支，包含已测试和验证的功能
+- **DevelopBeta**: 开发分支，用于新功能开发和实验性特性测试
+
 ### 提交 Issue
 - 清晰描述问题或功能请求
 - 提供复现步骤（如果是 Bug）
@@ -300,10 +312,12 @@ private val FILTERED_DEVICE_NAMES = setOf<String>(
 
 ### 提交 PR
 1. Fork 本项目
-2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+2. 从 `DevelopBeta` 分支创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
 3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启一个 Pull Request
+5. 向 `DevelopBeta` 分支开启一个 Pull Request
+
+> **注意**: 新功能和实验性改进请提交到 `DevelopBeta` 分支。只有经过充分测试的稳定功能才会合并到 `master` 分支。
 
 
 
