@@ -13,7 +13,7 @@ An open-source software project that enables access to Apple's Find My network o
 
 ## Project Overview
 
-FindMyNet is an Android application that allows users to track and locate their Apple devices (iPhone, iPad, Mac, Apple Watch, AirPods, etc.) through their iCloud account. The app implements a complete iCloud authentication flow, including two-factor authentication (2FA) support, and displays device locations in real-time on Amap.
+FindMyNet is an Android application that allows users to track and locate their Apple devices (iPhone, iPad, Mac, Apple Watch, AirPods, etc.) through their Apple account. The app implements a complete iCloud authentication flow, including two-factor authentication (2FA) support, and displays device locations in real-time on Amap.
 
 ### Key Features
 

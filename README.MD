@@ -13,7 +13,7 @@
 
 ## 项目简介
 
-FindMyNet 是一个 Android 应用程序，允许用户通过 iCloud 账户追踪和定位他们的 Apple 设备（iPhone、iPad、Mac、Apple Watch、AirPods 等）。该应用实现了完整的 iCloud 认证流程，包括双因素认证（2FA）支持，并在高德地图上实时显示设备位置。
+FindMyNet 是一个 Android 应用程序，允许用户通过 Apple 账户追踪和定位他们的 Apple 设备（iPhone、iPad、Mac、Apple Watch、AirPods 等）。该应用实现了完整的 iCloud 认证流程，包括双因素认证（2FA）支持，并在高德地图上实时显示设备位置。
 
 ### 主要功能
 
