@@ -1,5 +1,9 @@
 # FindMyNet
 
+**中文 | [English](README_EN.MD)**
+
+---
+
 一个允许在 Android 上访问 Apple 查找网络的开源软件项目。
 
 > **声明**  
@@ -280,7 +284,7 @@ private val FILTERED_DEVICE_NAMES = setOf<String>(
 - **权限控制**: 应用仅请求必要的权限（网络访问、位置权限）
 
 > **安全提示**  
-> 请勿在公共设备上登录您的 iCloud 账户。建议启用双因素认证以提高账户安全性。
+> 请勿在公共设备上登录您的 Apple 账户。建议启用双因素认证以提高账户安全性。
 
 ---
 
